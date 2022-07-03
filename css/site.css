@@ -2,7 +2,7 @@
   --primary-color: #131218;
   --primary-color-transparent: #131218dd;
   --secondary-color: #E7AD42;
-  --secondary-color-transparent: #E7AD42dd;
+  --secondary-color-transparent: #E7AD42ee;
   --light-color: #fff;
   --link-color: #D13536;
 }
@@ -195,7 +195,7 @@ footer,
 }
 
 .honours {
-    background: url("../images/team2021.jpg") no-repeat center ;
+    background: url("../images/flag-bibs.jpg") no-repeat center ;
     background-size: cover;
 }
 
