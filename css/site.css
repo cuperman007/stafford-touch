@@ -1,0 +1,218 @@
+:root {
+  --primary-color: #131218;
+  --primary-color-transparent: #131218dd;
+  --secondary-color: #E7AD42;
+  --secondary-color-transparent: #E7AD42dd;
+  --light-color: #fff;
+  --link-color: #D13536;
+}
+
+h1 {
+  font-size: 3.6em;
+  font-family: 'FS Elliot Pro';
+  font-weight: 900;
+  font-style: normal;
+  padding-top:  0.9em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'FS Elliot Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'FS Elliot Pro';
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2;
+  text-transform: none;
+  min-height: 40px;
+  color: var(--light-color);
+  background-color: var(--secondary-color);
+}
+
+p
+{
+  color: var(--primary-color);
+  line-height: 1.3em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: var(--link-color);
+}
+a:hover{
+  text-decoration: underline;
+  color: var(--link-color);
+}
+
+.team-primary
+{      
+  padding-top: 6em;
+  padding-bottom:6em;
+}
+
+.team-secondary,
+.pale {      
+  padding-top: 2em;
+  padding-bottom:3em;
+}
+  
+.team-primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+  .team-primary h1,
+  .team-primary h2 {
+    color: var(--secondary-color);
+    font-size: 3em;
+    font-family: 'FS Elliot Pro';
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .team-primary h3, 
+  .team-primary h4{
+    color: var(--link-color);
+    font-size: 2em;
+    font-weight: 900;
+    padding-top: 0.7em;
+  }
+
+.team-secondary {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+
+.team-secondary  p,    
+.team-primary p {
+  color: var(--light-color);
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-top: 0.7em;
+}
+
+.team-secondary h3, 
+.team-secondary h4{
+  color: var(--link-color);
+  font-size: 2em;
+  font-weight: 900;
+  padding-top: 0.7em;
+}
+
+.team-secondary h4{
+  font-size: 1.3em;
+}
+
+.pale {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+
+  .pale h2
+  {      
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .pale h3
+  {      
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding:1em;
+  }
+  
+  .pale h4
+  {      
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 0.7em;
+    text-align: center;
+    padding:1em;
+  }
+
+  .pale a {
+    color: var(--primary-color);
+  }
+  .pale a:hover {
+    color: var(--primary-color);
+  }
+
+  
+.navbar,
+.jumbotron {
+  background-color: var(--primary-color-transparent);
+  color: var(--secondary-color);
+  font-family: 'FS Elliot Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.navbar-nav > li > a{
+  text-shadow: none;
+  color: var(--secondary-color);
+}
+
+.navbar-nav > li > a:hover{
+  text-shadow: none;
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.how{
+  padding: 2em;
+}
+
+footer,
+.footer {
+  text-shadow: none;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding-bottom: 1em;
+  font-family: 'FS Elliot Pro';
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hero {
+    background: url("../images/training2.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.training {
+    background: url("../images/training1.jpg") no-repeat top ;
+    background-size: cover;
+}
+
+.honours {
+    background: url("../images/team2021.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.faq {
+    background: url("../images/agp.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.contact {
+    background: url("../images/IMG_20210413_134315574.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.jumbotron-fluid > div.team-primary{
+  background-color: var(--primary-color-transparent)
+}
+
+.jumbotron-fluid > div.team-secondary{
+  background-color: var(--secondary-color-transparent)
+}
